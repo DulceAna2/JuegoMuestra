@@ -19,8 +19,7 @@ interface PreguntasJuego {
 })
 export class JuegoComponent /*implements OnInit*/{
   preguntas: PreguntasJuego[] = [
-    {
-      categoria: "Arte y literatura",
+    categoria: "Arte y literatura",
       pregunta: "¿Quién pintó la mona lisa?",
       respuesta: "Leonardo da Vinci",
       incorrecta1: "Picasso",
@@ -135,6 +134,96 @@ export class JuegoComponent /*implements OnInit*/{
       incorrecta2: "1985",
       incorrecta3: "1987",
       imagen: "https://i.ibb.co/9cjvmw1/mona-lisa.jpg",
+    },
+    {
+      categoria: "Arte y literatura",
+      pregunta: "¿Quién pintó “La última cena”?",
+      respuesta: "Leonardo da Vinci",
+      incorrecta1: "Pablo Picasso",
+      incorrecta2: "Vincent van Gogh",
+      incorrecta3: "Salvador Dalí",
+      imagen: "https://cdn.culturagenial.com/es/imagenes/marco-d-oggiono-cke.jpg?class=article"
+    },
+    {
+      categoria: "Arte y literatura",
+      pregunta: "¿Cómo se denomina el resultado de la multiplicación?",
+      respuesta: "Producto",
+      incorrecta1: "Diferencia",
+      incorrecta2: "Cociente",
+      incorrecta3: "Total",
+      imagen: 
+    },
+    {
+      categoria: "Arte y literatura",
+      pregunta: "¿Qué año llegó Cristóbal Colón a América?",
+      respuesta: "1492",
+      incorrecta1: "1485",
+      incorrecta2: "1503",
+      incorrecta3: "1430",
+      imagen: "https://ar.usembassy.gov/wp-content/uploads/sites/111/2023/02/02388v.jpeg",
+    },
+    {
+      categoria: "Arte y literatura",
+      pregunta: " Si 50 es el 100%, ¿Cuánto vale el 90%?",
+      respuesta: "45",
+      incorrecta1: "40",
+      incorrecta2: "25",
+      incorrecta3: "43",
+      imagen: "/imagenes/multiplicacion.png",
+    },
+    {
+      categoria: "Arte y literatura",
+      pregunta: "¿Cuál es el segundo planeta en el sistema solar?",
+      respuesta: "Venus",
+      incorrecta1: "Marte",
+      incorrecta2:"Tierra" ,
+      incorrecta3: "Mercurio",
+      imagen: "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/14AAC/production/_105225648_1-1.jpg.webp",
+    },
+    {
+      categoria: "Arte y literatura",
+      pregunta: "¿Qué significan las siglas AFA?",
+      respuesta: "Asociación del Fútbol Argentino",
+      incorrecta1: "Asociacion de Federados Argentino",
+      incorrecta2: "Agrupacion Fanatica de Argentina ",
+      incorrecta3: "Alianza Fenomenal de Argentinos ",
+      imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYWVdcAnZcsKLV1O-AuTpWNjounFkEcyex6g&s"
+    },
+    {
+      categoria: "Arte y literatura",
+      pregunta: "¿Cuál es el primer libro de la Biblia?",
+      respuesta: "Genesis",
+      incorrecta1: "Exodo",
+      incorrecta2: "Antiguo Testamento",
+      incorrecta3: "Salmos",
+      imagen: "https://catolicismodigital.com/wp-content/uploads/2021/08/interpretacion-biblia.jpg"
+    },
+    {
+      categoria: "Arte y literatura",
+      pregunta: "¿Qué pieza de ajedrez puede hacer un movimiento en forma de L?",
+      respuesta: "Caballo",
+      incorrecta1: "Torre",
+      incorrecta2: "Reina",
+      incorrecta3: "Peón",
+      imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Chess_game_Staunton_No._6.jpg/275px-Chess_game_Staunton_No._6.jpg"
+    },
+    {
+      categoria: "Arte y literatura",
+      pregunta: "¿Cual es el nombre completo de Belgrano",
+      respuesta: "Manuel José Joaquín del Corazón de Jesús Belgrano",
+      incorrecta1: "Manuel Belgrano",
+      incorrecta2: "Joaquin Manuel Belgrano",
+      incorrecta3: "Domingo Manuel Belgrano"
+      imagen: "https://www.undef.edu.ar/wp-content/uploads/2020/06/header_belgrano.jpg",
+    },
+    {
+      categoria: "Arte y literatura",
+      pregunta:"¿Como se llama " 
+      respuesta: "Juana Azurduy",
+      incorrecta1: "María Remedios",
+      incorrecta2: "Rosa Guerra",
+      incorrecta3: "Lola Mora",
+      imagen:"https://www.notaalpie.com.ar/wp-content/uploads/2023/07/DESTACADA-O%CC%81leo-sobre-lienzo-de-Cristian-Laime-Yujra-1-Rocio-Roig.jpg
     }
 
   ]
